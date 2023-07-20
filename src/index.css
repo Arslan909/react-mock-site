@@ -80,3 +80,57 @@
     font-weight: bold;
     border-radius: 4px;
 }
+
+.MainComplete {
+    display: flex;
+}
+.img-container {
+    top: 40%;
+    right: 30%;
+    position:fixed;
+    /* border: 10px solid blue; */
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-width: 1024px){
+    .img-container {
+        top: 45%;
+        right: 5%;
+        position:fixed;
+        /* border: 10px solid blue; */
+        padding: 0;
+        margin: 0;
+    }
+
+    .MainContainer > h1{
+        width: 40%;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 20%;
+        margin-top: 5%;
+        font-size:  50px;
+        color: #1a1f6e;
+    }
+    #button-2{
+        padding: 10px;
+        width: 14%;
+        margin-right: 30px;
+        border: 0;
+        color: #e7e5ee;
+        height: 40px;
+        background-color: #fc815d;
+        font-weight: bold;
+        border-radius: 4px;
+    }
+    #button-1{
+        padding: 10px;
+        width: 14%;
+        margin-right: 30px;
+        background-color: #2e1768;
+        border: 0;
+        color: #e7e5ee;
+        height: 40px;
+        font-weight: bold;
+        border-radius: 4px;
+    }
+}    
