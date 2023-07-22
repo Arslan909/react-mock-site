@@ -8,7 +8,7 @@
 }
 .NavBar > h1 {
     margin-right: auto;
-    margin-left: 15%;
+    margin-left: 17%;
     color: #231c65;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
@@ -48,7 +48,7 @@
     color: #1a1f6e;
 }
 .MainContainer > p {
-    width: 27%;
+    width: 33%;
     font-family: 'Open Sans', sans-serif;
     margin-left: 20%;
     color: #757490;
@@ -76,16 +76,17 @@
     border: 0;
     color: #e7e5ee;
     height: 40px;
-    background-color: #fc815d;
+    background-color: #2e1768;
     font-weight: bold;
     border-radius: 4px;
 }
 
 .MainComplete {
     display: flex;
+    padding: 20px;
 }
 .img-container {
-    top: 40%;
+    top: 30%;
     right: 30%;
     position:fixed;
     /* border: 10px solid blue; */
