@@ -96,8 +96,8 @@
 
 @media only screen and (max-width: 1024px){
     .img-container {
-        top: 45%;
-        right: 5%;
+        top: 25%;
+        right: 2%;
         position:fixed;
         /* border: 10px solid blue; */
         padding: 0;
@@ -111,6 +111,12 @@
         margin-top: 5%;
         font-size:  50px;
         color: #1a1f6e;
+    }
+    .MainContainer > p {
+        width: 45%;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 20%;
+        color: #757490;
     }
     #button-2{
         padding: 10px;
